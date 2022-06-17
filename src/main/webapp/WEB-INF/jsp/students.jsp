@@ -24,6 +24,7 @@
 				<td>${student.lastName}</td>
 				<td>${student.grade}</td>
 				<td>${student.createDate}</td>
+
 			</tr>
 		</c:forEach>
 	</table>

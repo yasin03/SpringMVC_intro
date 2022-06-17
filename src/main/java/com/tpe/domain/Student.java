@@ -8,7 +8,8 @@ public class Student {
 	private String firstName;
 	private String lastName;
 	private Integer grade;
-	private LocalDateTime createDate=LocalDateTime.now();
+	private LocalDateTime createDate = LocalDateTime.now();
+
 	
 	public Long getId() {
 		return id;
@@ -40,6 +41,7 @@ public class Student {
 	public void setCreateDate(LocalDateTime createDate) {
 		this.createDate = createDate;
 	}
+
 	
 	
 	
